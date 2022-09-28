@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospito</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    <style>
+        * {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.far {
+  overflow: hidden;
+  background-color: #c04242;
+}
+
+.far a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.far a:hover {
+  background-color: rgb(129, 90, 90);
+  color: black;
+}
+
+.far a.active {
+  background-color: #2196F3;
+  color: rgb(143, 83, 83);
+}
+
+.far .login-container {
+  float: right;
+}
+
+.far input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+.far .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: rgb(228, 180, 180);
+  color: rgb(158, 134, 134);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.far .login-container button:hover {
+  background-color: rgb(7, 182, 7);
+}
+
+@media screen and (max-width: 600px) {
+  .far .login-container {
+    float: none;
+  }
+  .far a, .far input[type=text], .far .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .far input[type=text] {
+    border: 1px solid rgb(197, 160, 160);  
+  }
+}
+.departments h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    color: #000;
+}
+.departments{
+	padding:5em 0em;
+}
+
+    </style>
+</head>
+<body>
+  
+    <div class="far">
+      <img src="images/hospito.jpg" width="100px" height="50px">
+        <ul>
+             <a href="login.html">Login </a>
+             <a href="signup.html">Signup</a> 
+             <a href="Book appointment.html">Appointment</a>
+             <a href="contact_us.html">Contact Us</a>
+             <a href="about.html">About</a>
+             <a href="follow_us.html">Follow Me</a>
+        </ul>
+    </div>
+
+    <div class="departments" id="departments">
+      <h3>OUR DEPARTMENTS</h3>
+      <div class="sap_tabs">
+      <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+      <ul class="resp-tabs-list">
+      <li class="resp-tab-item" ><span>Cardiology</span></li>
+      <li class="resp-tab-item" ><label></label><span>Neurology</span></li>
+      <li class="resp-tab-item" ><label></label><span>Dental</span></li>
+      <li class="resp-tab-item" ><label></label><span>Dermitology</span></li>
+      <li class="resp-tab-item" ><label></label><span>Radiology</span></li>
+      </ul>
+      <div class="container">
+      
+      <div class="tab-1 resp-tab-content" >
+      <div class="col-md-6 col-sm-6 w3_tm">
+      <h4>Health Care</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="col-md-6 col-sm-6 w3_im">
+      <img src="images/doctor.jpg" class="img-responsive">
+      </div>
+      <div class="clearfix"></div>	
+      </div>
+      <div class="tab-1 resp-tab-content" >
+      <div class="col-md-6 col-sm-6 w3_tm">
+      <h4>Health Care</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="col-md-6 col-sm-6 w3_im">
+      <img src="doctor.jpg" class="img-responsive">
+      </div>
+      <div class="clearfix"></div>	
+      </div>
+      <div class="tab-1 resp-tab-content" >
+      <div class="col-md-6 col-sm-6 w3_tm">
+      <h4>Health Care</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="col-md-6 col-sm-6 w3_im">
+      <img src="images/doctor.jpg" class="img-responsive">
+      </div>
+      <div class="clearfix"></div>
+      </div>
+      <div class="tab-1 resp-tab-content" >
+      <div class="col-md-6 col-sm-6 w3_tm">
+      <h4>Health Care</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="col-md-6 col-sm-6 w3_im">
+      <img src="images/doctor.jpg" class="img-responsive">
+      </div>
+      <div class="clearfix"></div>
+      </div>
+      <div class="tab-1 resp-tab-content" >
+      <div class="col-md-6 col-sm-6 w3_tm">
+      <h4>Health Care</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="col-md-6 col-sm-6 w3_im">
+      <img src="images/doctor.jpg" class="img-responsive">
+      </div>
+      <div class="clearfix"></div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="clearfix"></div>
+          <div class="row team-data">
+		  <h3>OUR SPECIALISTS</h3>
+            <div class="col-md-3 col-sm-3 col-xs-6 w3_src">
+              <div class="team-profile">
+			          <div class="member-img" align="center">
+                  <img src="doctor.jpg" alt="">
+                </div>
+              
+                <div class="member-social1" align="center">
+                  <h4>Micheal</h4>                
+                </div>
+            </div>
+            </div>
+
+<div class="appointmentform" id="appointmentform">
+  <div class="container">
+    <div class="register-full">
+      <div class="register-right">
+        <div class="register-in">
+      
+          <h3>APPOINTMENT FORM</h3>
+          <div class=" w3_abp">
+          <div class="registerimg">
+            <img src="doctor.jpg" class="img-responsive" alt="" />
+          </div>
+          </div>
+          <div class=" register-form">
+            <form action="#" method="post">
+              <div class="fields-grid">
+                <div class="styled-input">
+                  <input type="text" name="Your name" required=""> 
+                  <label>Patients Name</label>
+                  <span></span>
+                </div> 
+                <div class="styled-input">
+                  <input type="email" name="Email" required="">
+                  <label>Email</label>
+                  <span></span>
+                </div>
+                <div class="styled-input">
+                  <input type="text" name="Phone" required=""> 
+                  <label>Phone Number</label>
+                  <span></span>
+                </div> 
+                <div class="styled-input">
+                  <h2>Sex :</h2>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+                <div class="styled-input">
+                  <select id="category1" required="">
+                    <option value="">Specialization*</option>
+                    <option value="">Cardiology</option>
+                    <option value="">Heart Surgery</option>
+                    <option value="">Skin Care</option>
+                    <option value="">Body Check-up</option>
+                    <option value="">Numerology</option>
+                    <option value="">Diagnosis</option>
+                    <option value="">Others</option>
+                  </select>
+                  <span></span>
+                </div>
+                <div class="styled-input">
+                  <select id="category2" required="">
+                    <option value="">Choose Hospital*</option>
+                    <option value="">Hospital 1</option>
+                    <option value="">Hospital 2</option>
+                    <option value="">Hospital 3</option>
+                    <option value="">Hospital 4</option>
+                    <option value="">Hospital 5</option>
+                  </select>
+                  <span></span>
+                </div>
+                <div class="styled-input">
+                <input class="date" id="datepicker" name="Text" type="text" value="MM/DD/YYYY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'MM/DD/YYYY';}"  required="">
+                </div>	
+                  <div class="content-wthree2">
+                    <div class="grid-w3layouts1">
+                      <div class="w3-agile1">
+                        <label class="rating">Taking any medications currently?<span>*</span></label>
+                        <ul>
+                          <li>
+                            <input type="radio" id="a-option" name="selector1">
+                            <label for="a-option">Yes </label>
+                            <div class="check"></div>
+                          </li>
+                          <li>
+                            <input type="radio" id="b-option" name="selector1">
+                            <label for="b-option">No</label>
+                            <div class="check"><div class="inside"></div></div>
+                          </li>
+                        </ul>
+                          <div class="clear"></div>
+                      </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  <div class="styled-input">
+                    <label class="list">If yes,Please list it<span></span></label>
+                    <textarea></textarea>
+                    <span></span>
+                  </div>
+                  <input type="submit" name="submit" value="Book Appointment">
+                
+              </div>
+              
+            </form>
+              
+          </div>
+          <div class="clearfix"></div>
+         </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <div class="container">
+        
+        <br><br> <h3>OUR LABORATORIES</h3>
+       
+         <div class="about-bottom  w3ls-team-info">
+             <div class="col-md-12">
+                 <div id="Carousel" class="carousel slide">
+                     <div class="carousel-inner">
+
+                         <div class="item active">
+                             <div class="row">
+                                 <div class="col-md-3 col-sm-6 col-xs-6 img-gallery-w3l">
+                                     <a href="lab1.jpg" class="thumbnail cm-overlay">
+                                         <img src="lab1.jpg" class="img-responsive" alt="Image" style="max-width:100%;">
+                                     </a>
+                                 </div>
+                                 <div class="col-md-3 col-sm-6 col-xs-6 img-gallery-w3l">
+                                     <a href="lab2.jpg" class="thumbnail cm-overlay">
+                                         <img src="lab2.jpg" class="img-responsive" alt="Image" style="max-width:100%;">
+                                     </a>
+                                 </div>
+                                 <div class="col-md-3 col-sm-6 col-xs-6 img-gallery-w3l">
+                                     <a href="lab3.jpg" class="thumbnail cm-overlay">
+                                         <img src="lab3.jpg" class="img-responsive" alt="Image" style="max-width:100%;">
+                                     </a>
+                                 </div>
+                                 <div class="col-md-3 col-sm-6 col-xs-6 img-gallery-w3l">
+                                     <a href="lab4.jpg" class="thumbnail cm-overlay">
+                                         <img src="lab4.jpg" class="img-responsive" alt="Image" style="max-width:100%;">
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+           <div class="item active">
+                             <div class="row">
+                                 <div class="col-md-3 col-sm-6 col-xs-6 img-gallery-w3l">
+                                     <a href="lab5.jpg" class="thumbnail cm-overlay">
+                                         <img src="lab5.jpg" class="img-responsive" alt="Image" style="max-width:100%;">
+                                     </a>
+                                 </div>
+                                 
+                                </div>
+                              </div>
+                     </div>
+             </div>
+         </div>
+     </div>
+</div>
+</div>
+
+
+
+  
+</body>
+</html>
